@@ -1,6 +1,5 @@
 # TranslatingDatasets
 
-<hr/>
 
 ## Translation Quality Evaluation
 
@@ -21,6 +20,8 @@
 
 ### 🌐 Google Translate: Dataset Results
 
+<center>
 <img src="output2.png" style="margin:20px; width:80%;"/>
 <br/>
 <img src="output.png" style="margin:20px; width:80%;" />
+</center>
