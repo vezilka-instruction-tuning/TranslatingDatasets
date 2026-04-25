@@ -36,8 +36,8 @@
 
 ### Judge: Llama 3.3 70B Versatile (`llama-3.3-70b-versatile`)
 
-![Llama Radar](angel/img/llama_combined_radar.png)
-![Llama Bar](angel/img/llama_combined_bar.png)
+![Llama Radar](angel/gemma-3-4B-it/evaluation/llama-3.3-70b-versatile/comparison-img/llama_combined_radar.png)
+![Llama Bar](angel/gemma-3-4B-it/evaluation/llama-3.3-70b-versatile/comparison-img/llama_combined_bar.png)
 
 | Model | Dataset | Accuracy | Fluency | Coherence | Relevance | Hall. Free | **Avg** |
 |-------|---------|:--------:|:-------:|:---------:|:---------:|:----------:|:-------:|
