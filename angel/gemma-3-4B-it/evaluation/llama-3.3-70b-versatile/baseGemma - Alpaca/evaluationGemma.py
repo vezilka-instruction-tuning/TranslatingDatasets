@@ -27,7 +27,7 @@ def get_full_metrics(instr, ref, gen):
                If the response is in Bulgarian, Serbian, English or ANY other language → fluency = 0.0
                If Macedonian but with grammar issues → 0.3 to 0.7
                If natural, correct Macedonian → 0.8 to 1.0
-               Key distinctions - Macedonian uses: "и" not "и" (same but context differs),
+               Key distinctions - Macedonian uses:
                "што" not "което", "јас" not "аз", "не" correctly, Macedonian verb forms.
     - Coherence: Logic and completeness (penalize if cut off or incomplete).
     - Relevance: Alignment with instruction.
