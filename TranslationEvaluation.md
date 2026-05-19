@@ -37,7 +37,7 @@ Use this reference table to interpret the evaluation metric scores.
 
 ---
 
-## 🙍‍♂️ Human Evaluation Matrix
+## 👨 Human Evaluation Matrix
 
 > **Note on Evaluation:** Scores are rated out of 10. Language specific constraints (such as forbidden English words) are handled according to language-specific localization protocols.
 
