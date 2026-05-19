@@ -1,0 +1,170 @@
+[
+  {
+    "prompt_en":"Your response should contain at least 3 sentences. The response must contain at least 2 placeholders represented by square brackets, such as [address]. Highlight at least 1 section in your answer with markdown, i.e. *highlighted section*. In your response, the word *highlighted* should appear at least 2 times.\n\nWhat is the best way to send a package to [address] from [origin]?",
+    "prompt_mk":"Вашиот одговор треба да содржи најмалку 3 реченици. Одговорот мора да содржи најмалку 2 заменски резервирани места претставени со квадратни загради, како на пример [адреса]. Означете барем 1 дел во вашиот одговор со markdown, т.е. *означен дел*. Во вашиот одговор, зборот *означен* треба да се појави најмалку 2 пати.\n\nКој е најдобриот начин да се испрати пакет до [адреса] од [потекло]?",
+    "response_en":"To send a package to [address] from [origin], you should consider using a reliable courier service like UPS or FedEx. *These companies offer tracking services and various delivery options to ensure your package reaches [address] safely and promptly.* Additionally, make sure to properly package and label your item, including a *highlighted* return address and any necessary customs forms if you are sending internationally. Highlighting important details, such as the *highlighted* address, can help prevent any delays in transit.",
+    "response_mk":"За да испратите пакет до [адреса] од [потекло], треба да размислите за користење на сигурна курирска услуга како UPS или FedEx. *Овие компании нудат услуги за следење и разни опции за испорака за да се осигурат дека вашиот пакет ќе пристигне безбедно и брзо до [адреса].* Дополнително, осигурајте се дека правилно сте го спакувале и етикетирале вашиот предмет, вклучувајќи *означена* адреса за враќање и сите потребни царински формулари ако испраќате меѓународно. Означувањето на важни детали, како што е *означената* адреса, може да помогне во спречувањето на какви било доцнења во транзитот.",
+    "grades": {
+      "accuracy": 10,
+      "fluency": 10,
+      "format": 10,
+      "overall": 10
+    },
+    "notes": [
+      "Placeholders [адреса]/[потекло] correctly preserved",
+      "Markdown bold/italic formatting fully intact"
+    ]
+  },
+  {
+    "prompt_en":"Your response should contain less than 50 words. At the end of your response, please explicitly add a postscript starting with P.S. Finish your response with this exact phrase: Is there anything else I can help with?",
+    "prompt_mk":"Вашиот одговор треба да содржи помалку од 50 зборови. На крајот од вашиот одговор, ве молиме експлицитно додадете постскриптум што започнува со PS. Завршете го вашиот одговор со оваа точна фраза: Дали има нешто друго со што можам да помогнам?",
+    "response_en":"Sure, I can help with that. P.S. Is there anything else I can help with?",
+    "response_mk":"Секако, можам да помогнам со тоа. П.С. Дали има нешто друго со што можам да помогнам?",
+    "grades": {
+      "accuracy": 10,
+      "fluency": 10,
+      "format": 9.5,
+      "overall": 9.8
+    },
+    "notes": [
+      "Closing phrase translated exactly and naturally",
+      "'П.С.' follows standard MK orthographic convention",
+      "Word-count constraint satisfied in MK version"
+    ]
+  },
+  {
+    "prompt_en":"Your answer must contain exactly 3 bullet points. Use the markdown bullet points such as: * This is point 1. Your response should contain less than 100 words. Do not include keywords [forbidden_words] in the response. [forbidden_words] are: avoid, reject, refuse.",
+    "prompt_mk":"Вашиот одговор мора да содржи точно 3 точки. Користете ги точките за ознака како на пример: * Ова е точка 1. Вашиот одговор треба да содржи помалку од 100 зборови. Не вклучувајте клучни зборови [forbidden_words] во одговорот. [forbidden_words] се: avoid, reject, refuse.",
+    "response_en":"* Point one is a concise statement that adheres to the constraints provided.\n* Point two highlights the importance of following instructions accurately and efficiently.\n* Point three ensures the response is clear and relevant to the user's query.",
+    "response_mk":"* Првата точка е концизна изјава што се придржува до дадените ограничувања.\n* Втората точка ја нагласува важноста на точното и ефикасно следење на упатствата.\n* Третата точка гарантира дека одговорот е јасен и релевантен за барањето на корисникот.",
+    "grades": {
+      "accuracy": 10,
+      "fluency": 10,
+      "format": 10,
+      "overall": 10
+    },
+    
+    "notes": [
+      "All 3 bullets present with correct '* ' prefix",
+      "Forbidden-words constraint correctly left in English (EN-specific rule)"
+    ]
+  },
+  {
+    "prompt_en":"Provide a detailed explanation of the benefits of using a content management system (CMS) for managing a website. Your response should contain at least 5 bullet points. Use the markdown bullet points such as: * This is point 1.",
+    "prompt_mk":"Дајте детално објаснување за придобивките од користењето систем за управување со содржини (CMS) за управување со веб-страница. Вашиот одговор треба да содржи најмалку 5 точки за означување. Користете ги точките за означување како што се: * Ова е точка 1.",
+    "response_en":"* *Enhanced Collaboration*: A CMS allows multiple users to contribute and manage content without requiring technical skills. This streamlines the workflow and improves efficiency.\n* *User-Friendly Interface*: Most CMS platforms offer intuitive interfaces that make it easy for non-technical users to create, edit, and publish content. This reduces the learning curve and increases productivity.\n* *Consistent Branding and Design*: A CMS ensures a consistent look and feel across all pages by using templates and themes. This helps maintain a professional and cohesive brand image.\n* *Scalability*: CMS platforms can easily accommodate the growth of a website. Whether you need to add more pages, users, or features, a CMS can adapt to your evolving needs.\n* *SEO Optimization*: Many CMS platforms come with built-in SEO tools and plugins that help optimize your website for search engines. This can improve your site's visibility and drive more organic traffic.",
+    "response_mk":"*Подобрена соработка*: CMS им овозможува на повеќе корисници да придонесуваат и да управуваат со содржина без да бараат технички вештини. Ова го поедноставува работниот тек и ја подобрува ефикасноста.\n* *Интерфејс лесен за користење*: Повеќето CMS платформи нудат интуитивни интерфејси што им олеснуваат на корисниците кои не се технички запознаени да креираат, уредуваат и објавуваат содржина. Ова ја намалува кривата на учење и ја зголемува продуктивноста.\n* *Конзистентно брендирање и дизајн*: CMS обезбедува конзистентен изглед и чувство на сите страници со користење на шаблони и теми. Ова помага да се одржи професионален и кохезивен имиџ на брендот.\n* *Скалабилност*: CMS платформите лесно можат да го прилагодат растот на веб-страницата. Без разлика дали треба да додадете повеќе страници, корисници или функции, CMS може да се прилагоди на вашите еволуирачки потреби.\n* *SEO оптимизација*: Многу CMS платформи доаѓаат со вградени SEO алатки и додатоци кои помагаат да се оптимизира вашата веб-страница за пребарувачите. Ова може да ја подобри видливоста на вашата страница и да привлече повеќе органски сообраќај.",
+    "grades": {
+      "accuracy": 10,
+      "fluency": 9.5,
+      "format": 9,
+      "overall": 9.5
+    },
+    "notes": [
+      "FORMAT ERROR: First bullet missing its '* ' prefix — markdown list broken",
+      "'Кохезивен имиџ на брендот' — 'усогласена слика' is more natural MK"
+    ]
+  },
+  {
+    "prompt_en":"Your response should contain at least 3 sentences. My question is: What are some effective time management techniques for remote workers?",
+    "prompt_mk":"Вашиот одговор треба да содржи најмалку 3 реченици. Моето прашање е: Кои се некои ефикасни техники за управување со времето за работници од далечина?",
+    "response_en":"Effective time management techniques for remote workers include setting a consistent daily schedule to maintain a routine and separate work from personal life. Utilizing time-blocking methods can help allocate specific periods for tasks, meetings, and breaks, ensuring a balanced and productive day. Additionally, leveraging tools like digital calendars and task management apps can enhance organization and keep track of deadlines and priorities efficiently.",
+    "response_mk":"Ефективните техники за управување со времето за работници од далечина вклучуваат поставување конзистентен дневен распоред за одржување рутина и одвојување на работата од личниот живот. Користењето методи за блокирање на времето може да помогне во распределбата на специфични периоди за задачи, состаноци и паузи, обезбедувајќи избалансиран и продуктивен ден. Дополнително, користењето алатки како дигитални календари и апликации за управување со задачи може да ја подобри организацијата и ефикасно да ги следи роковите и приоритетите.",
+        "grades": {
+      "accuracy": 10,
+      "fluency": 10,
+      "format": 10,
+      "overall": 10
+    },
+    
+    "notes": [
+      "3-sentence requirement met",
+      "'Избалансиран' is acceptable but 'урамнотежен' reads more naturally in MK"
+    ]
+  },
+  {
+    "prompt_en":"Provide a response to the following question: What are the benefits of using a CRM system in a business? Your response should contain at least 3 bullet points. Use the markdown bullet points such as: * This is point 1. Also, highlight at least one section of your response with markdown, i.e., *highlighted section*.",
+    "prompt_mk":"Одговорете на следново прашање: Кои се придобивките од користењето на CRM систем во бизнисот? Вашиот одговор треба да содржи најмалку 3 точки за означување. Користете ги точките за означување како што се: * Ова е точка 1. Исто така, означете барем еден дел од вашиот одговор со означување, т.е. *означен дел*.",
+    "response_en":"* A CRM system helps in *managing customer relationships* more effectively by providing a centralized database to store and manage customer information such as contact details, purchase history, and communication records.\n* It enhances sales efficiency and productivity by automating sales processes, providing sales analytics, and enabling better lead management.\n* CRM systems improve customer service and support by offering tools for tracking and resolving customer issues, and providing personalized customer experiences.",
+    "response_mk":"* CRM системот помага во *управувањето со односите со клиентите* поефикасно преку обезбедување централизирана база на податоци за складирање и управување со информации за клиентите, како што се детали за контакт, историја на купувања и записи за комуникација.\n* Ја подобрува ефикасноста и продуктивноста на продажбата преку автоматизирање на процесите на продажба, обезбедување аналитика на продажбата и овозможување подобро управување со потенцијални клиенти.\n* CRM системите ја подобруваат услугата и поддршката за клиентите преку нудење алатки за следење и решавање на проблемите на клиентите и обезбедување персонализирани искуства за клиентите.",
+    "grades": {
+      "accuracy": 10,
+      "fluency": 10,
+      "format": 10,
+      "overall": 10
+    },
+    "notes": [
+      "Markdown highlight correctly preserved on first bullet",
+      "'потенцијални клиенти' for 'leads' — acceptable",
+      "Structure and meaning faithfully transferred"
+    ]
+  },
+  {
+    "prompt_en":"Your entire response should be in English, and in all lowercase letters. no capital letters are allowed. answer with at least 50 words. your answer must contain a title, wrapped in double angular brackets, such as <<poem of joy>>. include keywords happiness, sunshine, and laughter. finish your response with this exact phrase is there anything else i can help with?",
+    "prompt_mk":"Целиот ваш одговор треба да биде на англиски јазик и со мали букви. Не се дозволени големи букви. Одговорете со најмалку 50 зборови. Вашиот одговор мора да содржи наслов, завиткан во двојни аголни загради, како на пример <<поема на радоста>>. Вклучете клучни зборови среќа, сонце и смеа. Завршете го вашиот одговор со токму оваа фраза: дали има нешто друго со што можам да помогнам?",
+    "response_en":"<<sunshine and laughter>>\n\nin the warmth of the sunshine, happiness blossoms like flowers in spring. laughter echoes through the air, a melody that lifts the spirits and brings joy to all who hear it. every moment spent in the sun is a moment filled with happiness and the sweet sound of laughter.\n\nis there anything else i can help with?",
+    "response_mk":"<<сончева светлина и смеа>>\n\nво топлината на сончевата светлина, среќата цвета како цвеќиња во пролет. Смеата одекнува низ воздухот, мелодија што го крева расположението и им носи радост на сите што ја слушаат. секој момент поминат на сонце е момент исполнет со среќа и сладок звук на смеата.\n\nдали има нешто друго со што можам да помогнам?",
+    "grades": {
+      "accuracy": 9.5,
+      "fluency": 10,
+      "format": 9.5,
+      "overall": 9.7
+    },
+    "notes": [
+      "CONSTRAINT ERROR: 'Смеата одекнува' starts with capital С — violates lowercase requirement",
+      "<<…>> title format preserved correctly",
+      "Closing phrase translated precisely; keywords mapped to MK equivalents"
+    ]
+  },
+  {
+    "prompt_en":"What is the capital of France, and what are some popular tourist attractions there? Your response should contain at least 3 sentences. Include keywords [Eiffel Tower, Louvre, Notre Dame]. Highlight at least 2 sections in your answer with markdown, i.e. *highlighted section*.",
+    "prompt_mk":"Кој е главен град на Франција и кои се некои популарни туристички атракции таму? Вашиот одговор треба да содржи најмалку 3 реченици. Вклучете клучни зборови [Ајфелова кула, Лувр, Нотр Дам]. Означете најмалку 2 дела во вашиот одговор со markdown, т.е. *означен дел*.",
+    "response_en":"The capital of France is Paris, a city renowned for its rich history and cultural landmarks. *Among the most famous attractions is the Eiffel Tower, an iconic iron lattice tower that stands as a symbol of the city.* Visitors can also explore the *Louvre*, one of the world's largest and most visited art museums, which houses the Mona Lisa and other renowned artworks. Another must-see is *Notre Dame*, a stunning Gothic cathedral with a rich history dating back to the 12th century.",
+    "response_mk":"Главен град на Франција е Париз, град познат по својата богата историја и културни знаменитости. *Меѓу најпознатите атракции е Ајфеловата кула, иконска железна решеткаста кула која стои како симбол на градот.* Посетителите можат да го истражат и *Лувр*, еден од најголемите и најпосетуваните уметнички музеи во светот, во кој се сместени Мона Лиза и други познати уметнички дела. Друга работа што мора да се види е *Нотр Дам*, прекрасна готска катедрала со богата историја што датира од 12 век.",
+    "grades": {
+      "accuracy": 10,
+      "fluency": 10,
+      "format": 10,
+      "overall": 10
+    },
+    "notes": [
+      "Proper nouns correctly localised: Ајфелова кула, Нотр Дам, Лувр",
+      "Both markdown highlights preserved",
+      "'во кој се сместени' → 'во кој се изложени' (exhibited) is more precise for a museum"
+    ]
+  },
+  {
+    "prompt_en":"Your response should contain at least 3 sentences. Do not include the word \"the\" in your response. At the end of your response, please explicitly add a postscript starting with P.S.",
+    "prompt_mk":"Вашиот одговор треба да содржи најмалку 3 реченици. Не го вклучувајте зборот „the“ во вашиот одговор. На крајот од вашиот одговор, ве молиме експлицитно додадете постскриптум што започнува со PS",
+    "response_en":"Sure I can adhere to those constraints. Here is my response:\n\nI can provide answers without using specific words. Each sentence will convey necessary information clearly. Postscripts allow for additional thoughts or reminders.\n\nP.S. I hope this meets your requirements.",
+    "response_mk":"Секако дека можам да се придржувам до тие ограничувања. Еве го мојот одговор:\n\nМожам да дадам одговори без да користам конкретни зборови. Секоја реченица јасно ќе ги пренесе потребните информации. Постскриптите дозволуваат дополнителни мисли или потсетници.\n\nПС Се надевам дека ова ги задоволува вашите барања.",
+    "grades": {
+      "accuracy": 10,
+      "fluency": 10,
+      "format": 9.5,
+      "overall": 9.8
+    },
+    "notes": [
+      "'ПС' missing periods — normative form is 'П.С.' per MK orthography",
+      "'the' constraint correctly understood as EN-specific; no equivalent imposed in MK",
+      "3 sentences and meaning fully preserved"
+    ]
+  },
+  {
+    "prompt_en":"Provide a response to the following query: \"What are the benefits of using a cloud-based storage solution for businesses?\"\n\nYour response should contain at least 5 sentences. Highlight at least 2 sections in your answer with markdown, i.e., *highlighted section*. Include keywords *scalability*, *data*, *redundancy*, *accessibility*, *cost-effective* in the response.",
+    "prompt_mk":"Дајте одговор на следново прашање: „Кои се придобивките од користењето решение за складирање базирано на облак за бизнисите?“\n\nВашиот одговор треба да содржи најмалку 5 реченици. Означете најмалку 2 дела во вашиот одговор со ознака надолу, т.е. *означен дел*. Вклучете ги клучните зборови *скалабилност*, *податоци*, *редундантност*, *пристапност*, *исплатливост* во одговорот.",
+    "response_en":"Using a cloud-based storage solution offers several significant benefits for businesses. *Firstly, scalability* is a key advantage, as cloud storage allows companies to easily scale their storage capacity up or down based on their changing needs, without the burden of managing physical hardware. Additionally, cloud storage enhances *data redundancy* and backup, ensuring that data is securely stored across multiple servers and locations, which reduces the risk of data loss due to hardware failures or disasters. Another benefit is *accessibility*, enabling employees to access files from anywhere at any time, as long as they have an internet connection, which boosts productivity and collaboration. Lastly, cloud storage is *cost-effective*, eliminating the need for expensive on-premises storage infrastructure and reducing maintenance costs, which can significantly lower overall IT expenses for businesses.",
+    "response_mk":"Користењето решение за складирање базирано на облак нуди неколку значајни придобивки за бизнисите. *Прво, скалабилноста* е клучна предност, бидејќи складирањето во облак им овозможува на компаниите лесно да го зголемат или намалат својот капацитет за складирање врз основа на нивните променливи потреби, без товарот на управување со физички хардвер. Дополнително, складирањето во облак ја подобрува *редундантноста на податоци* и резервната копија, осигурувајќи дека податоците се безбедно складирани на повеќе сервери и локации, што го намалува ризикот од губење на податоци поради хардверски дефекти или катастрофи. Друга придобивка е *пристапноста*, овозможувајќи им на вработените пристап до датотеки од каде било во кое било време, сè додека имаат интернет конекција, што ја зголемува продуктивноста и соработката. Конечно, складирањето во облак е *исплатливо*, елиминирајќи ја потребата од скапа инфраструктура за складирање во просториите и намалувајќи ги трошоците за одржување, што може значително да ги намали вкупните ИТ трошоци за бизнисите.",
+    "grades": {
+      "accuracy": 10,
+      "fluency": 10,
+      "format": 10,
+      "overall": 10
+    },
+    "notes": [
+      "All 5 keywords mapped to correct MK equivalents",
+      "'Физички хардвер' tautological — 'физичка опрема' preferred",
+      "Both markdown highlights intact; 5-sentence requirement met"
+    ]
+  }
+]

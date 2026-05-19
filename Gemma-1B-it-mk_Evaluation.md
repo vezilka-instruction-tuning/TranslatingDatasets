@@ -56,7 +56,7 @@ We utilized a dual-judge system to minimize bias and capture a broader range of 
 ---
 ## 📝 Gemini 3.1 Flash-Lite Reasoning Examples
 
-> If you want to see more complete reasoning on each row in the judged dataset click [here](stefan/gemma-3-1B-it-mk-eval/evaluation_results)
+> If you want to see more complete reasoning on each row of the judged dataset click [here](stefan/gemma-3-1B-it-mk-eval/normalized_evaluation_results)
 
 ## Fine-tuned Gemma Tested on Alpaca
  
